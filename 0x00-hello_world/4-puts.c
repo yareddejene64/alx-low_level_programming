@@ -3,9 +3,9 @@
 /**
 * main - print string in the put function
 *
-* description: using main function
+* Description: using main function
 * this program prints "Programming is like building a multilingual puzzle
-* Return:0
+* return:0
 */
 int main(void)
 {
