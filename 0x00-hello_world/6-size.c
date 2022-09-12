@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - print the string in the printf function
 *
@@ -15,9 +14,9 @@ int main(void)
 	long long lli;
 	float floattype;
 
-	printf("size of char : %zu byte(s)\n",sizeof (chartype));
-	printf("size of int : %zu byte(s)\n",sizeof (inttype));
-	printf("size of long : %zu byte(s)\n",sizeof (li));
-	printf("size of long long : %zu byte(s)\n",sizeof (lli));
-	printf("size of float : %zu byte(s)\n",sizeof (floattype));
+	printf("size of char : %id byte(s)\n" , sizeof (chartype));
+	printf("size of int : %id byte(s)\n" , sizeof (inttype));
+	printf("size of long : %id byte(s)\n" , sizeof (li));
+	printf("size of long long : %id byte(s)\n" , sizeof (lli));
+	printf("size of float : %id byte(s)\n" , sizeof (floattype));
 	return (0); }
