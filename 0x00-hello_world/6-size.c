@@ -8,15 +8,15 @@
 */
 int main(void)
 {
-	char chartype;
-	int inttype;
+	char c;
+	int i;
 	long li;
 	long long lli;
-	float floattype;
+	float f;
 
-	printf("size of char : %id byte(s)\n" , sizeof (chartype));
-	printf("size of int : %id byte(s)\n" , sizeof (inttype));
-	printf("size of long : %id byte(s)\n" , sizeof (li));
-	printf("size of long long : %id byte(s)\n" , sizeof (lli));
-	printf("size of float : %id byte(s)\n" , sizeof (floattype));
+	printf("size of char: %id byte(s)\n", sizeof(c));
+	printf("size of int: %id byte(s)\n", sizeof(i));
+	printf("size of long int: %id byte(s)\n", sizeof(li));
+	printf("size of long long int: %id byte(s)\n", sizeof(lli));
+	printf("size of float: %id byte(s)\n", sizeof(f));
 	return (0); }
