@@ -1,29 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- *  * print_to_98 - Prints all natural numbers from input to 98,
- *   *               in order separated by a comma followed by a space.
- *    * @n: The number to begin counting at.
- *     */
-
-void printFibonacciNumbers(int n)
+ * *main - prints out first 50
+ * *fibonacci suit numbers
+ * *Return: return 0
+ * */
+int main(void)
 {
-    int f1 = 1, f2 = 2, i;
+	int inc;
+	unsigned long n1 = 0, n2 = 1, n3;
+	for (inc = 0; inc < 98; inc++)
+	{
+		n3 = n1 + n2;
+		printf("%lu", n3);
+		n1 = n2;
+		n2 = n3;
 
-    if (n < 1)
-        return;
-    printf("%d, ", f1);
-    for (i = 1; i < n; i++) {
-        printf("%d, ", f2);
-        int next = f1 + f2;
-        f1 = f2;
-        f2 = next;
-    }
-}
+		if (inc == 97)
+			printf("\n");
+		else
+			printf(", ");
 
+	}
 
-int main()
-{
-    printFibonacciNumbers(98);
-    return 0;
+	return (0);
 }
