@@ -31,4 +31,5 @@ int main(void)
 	else
 		printf("%d\t", i);
 }
-return 0; }
+return (0);
+}
