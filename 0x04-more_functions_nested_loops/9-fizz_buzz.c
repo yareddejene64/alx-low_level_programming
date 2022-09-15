@@ -21,5 +21,5 @@ int i;
 	else
 		printf("%d\t", i);
 }
-return (0); 
+	return (0); 
 }
