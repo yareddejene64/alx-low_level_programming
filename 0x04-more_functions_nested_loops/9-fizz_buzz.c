@@ -6,7 +6,7 @@
  * *
  * *
  * *Return: returns 0
- * */
+ */
 
 int main(void)
 
@@ -18,7 +18,7 @@ int main(void)
 {
 	if (i % 15 == 0)
 
-		printf ("FizzBuzz\t");
+		printf("FizzBuzz\t");
 
 	else if ((i % 3) == 0)
 
