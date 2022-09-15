@@ -20,6 +20,4 @@ int i;
 		printf("Buzz\t");
 	else
 		printf("%d\t", i);
-}
-	return (0); 
-}
+} return (0); }
