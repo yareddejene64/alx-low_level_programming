@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-   int i;
+int i;
 	for (i = 1; i <= 100; i++)
 {
 	if (i % 15 == 0)
@@ -21,5 +21,5 @@ int main(void)
 	else
 		printf("%d\t", i);
 }
-	return (0); 
+return (0); 
 }
