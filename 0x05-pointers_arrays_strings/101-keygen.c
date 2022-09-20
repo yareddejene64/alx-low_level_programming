@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
+
 
 /**
  * main - entry point
@@ -15,13 +15,13 @@ int main(void)
 	int x;
 
 	srand(time(0));
-	while (x <= 2645)
+	while (x <= 1200)
 	{
-		c = rand() % 128;
+		c = rand() % 311;
 		x += c;
 		putchar(c);
 	}
-	putchar(2772 - x);
+	putchar(993 - x);
 
 	return (0);
 }
