@@ -1,11 +1,13 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * base10 - power in 10 base
- * @n: an exponent
- * Return: returns 10 to power exponent
+ *_strcat - concatenates  the string pointed to by @src to
+ * the end of the string pointed to by @dest
+ *@dest: String that will be appended
+ *@src: String to be concatenated upon
+ *
+ * Return: returns poiner to @dest
  */
-int base10(int n)
 {
   int base = 10;
   while (n > 0)
