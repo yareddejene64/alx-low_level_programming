@@ -1,5 +1,5 @@
-#include "main.h"
-
+#include "holberton.h"
+#include <stdio.h>
 
 /**
  * _strstr -  a function that locates a substring.
@@ -10,26 +10,21 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i=0, j=0;
+	char *startn = needle, *starth = haystack;
 
-	while (haystack[i])
+	while (*haystack)
 	{
-		while (needle[j] && (haystack[i] == needle[0]))
+		starth = haystack;
+		needle = startn;
+		while (*haystack == *needle)
 		{
-			if (haystack[i + J] == needle[j])
-			       j++;
-			else
-			       break;
+			haystack++;
+			needle++;
 		}
 
-		if (needle[j])
-		{
-			i++;
-			j = 0;
-		}
-
-		else
-		        return (haystack + i); 
+		if (*needle == '\0')
+			return (haystack);
+		haystack = starth + 1;
 	}
-	return (0);
+	return (NULL);
 }
