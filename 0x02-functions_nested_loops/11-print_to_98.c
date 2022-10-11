@@ -5,7 +5,7 @@
  *               in order separated by a comma followed by a space.
  * @n: The number to begin counting at.
  */
-int main()
+int main(void)
 {
 	int n;
 	if (n <= 98)
