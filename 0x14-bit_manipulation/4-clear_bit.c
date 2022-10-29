@@ -1,5 +1,4 @@
-
-[A#include "main.h"
+#include "main.h"
 
 /**
  * clear_bit - sets the value of a bit to 0.
